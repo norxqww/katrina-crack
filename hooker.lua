@@ -15,7 +15,7 @@ end
 local o_ffi_cast = ffi.cast
 
 ffi.cast = function (type, value)
-    -- спасибо за юз спащеной хуйни :DD
+    -- спасибо за юз спащенной хвид системы :DD
     if type == "get_file_time_t" then
         return function() return "1234567890" end
     end
